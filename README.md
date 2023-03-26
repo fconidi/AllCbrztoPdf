@@ -8,6 +8,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 Download and use:
 
 $ git clone https://github.com/fconidi/AllCbrztoPdf.git
+
 $ cd AllCbrztoPdf/
+
 $ chmod +x allcbrztopdf.sh
+
 $ ./allcbrztopdf.sh
