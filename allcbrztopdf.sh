@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Source: https://francoconidi.it
+# Source: https://syslinuxos.com
+
 set -xev
 sudo apt update
 sudo apt upgrade -y
