@@ -5,7 +5,7 @@ The Bash script is designed to automatically convert CBR and CBZ files to PDF fo
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-Download and use:
+Download:
 
 $ git clone https://github.com/fconidi/AllCbrztoPdf.git
 
