@@ -31,7 +31,7 @@ while read file; do
       unzip -j "$file" -d "$TMP_FOLDER"
       ;;
   esac
-  ls -1 ./*jpg ./*jpeg ./*png | pv -lep -s $(ls -1 ./*jpg ./*jpeg ./*png | wc -l) | xargs -P 8 -I {} img2pdf {} -o {}.pdf
+  ls -1 ./*jpg ./*jpeg ./*webp./*tiff ./*png | pv -lep -s $(ls -1 ./*jpg ./*jpeg ./*webp ./*tiff ./*png | wc -l) | xargs -P 8 -I {} img2pdf {} -o {}.pdf
   pdftk *.pdf cat output combined.pdf
   cp "$TMP_FOLDER/combined.pdf" "$ORIGINAL_FOLDER/$(basename "$file" .cbr | sed 's/.rar$//;s/.zip$//;s/.cbz$//').pdf"
   rm -rf "$TMP_FOLDER"
