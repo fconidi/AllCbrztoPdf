@@ -14,3 +14,6 @@ $ cd AllCbrztoPdf/
 $ chmod +x allcbrztopdf.sh
 
 $ ./allcbrztopdf.sh
+
+
+Note:In case of errors, repeat the operation with fewer cbr/cbz files to convert, max 8 at a time, because you need more cpu and ram
