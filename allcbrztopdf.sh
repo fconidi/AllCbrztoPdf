@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Source: https://francoconidi.it
+# Source: https://francoconidi.it/convertire-fumetti-cbr-cbz-in-pdf-con-allcbrztopdf/
 # Source: https://syslinuxos.com
 
 set -xev
