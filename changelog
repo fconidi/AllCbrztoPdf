@@ -1,0 +1,15 @@
+Allcbrztopdf (1.0.3) release; urgency=low
+
+
+
+ * (1.0.3)
+ * add xargs -P 8 (cpu number) to speed up the conversion
+ * bug fix
+
+
+ * (1.0.2)
+ * add extension webp, tif, bug fix
+ 
+
+
+ -- Franco Conidi aka edmond <edmondweblog@gmail.com>  Mon, 27 Mar  2023 21:44:46 +0100
