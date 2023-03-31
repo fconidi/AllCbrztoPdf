@@ -17,3 +17,4 @@ $ ./allcbrztopdf.sh
 
 
 Note:In case of errors, repeat the operation with fewer cbr/cbz files to convert, max 8 at a time, because you need more cpu and ram
+ps: Sometimes it happens that inside rar or zip files, there are images with the wrong extension, mixed up, and therefore the script fails. Try to isolate those that don't work, and then proceed manually.
